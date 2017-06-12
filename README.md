@@ -40,3 +40,20 @@ $ ffmpeg2theora xxx.mov -o xxx.ogv
 您的浏览器不支持播放视频
 </video>
 ```
+
+## 输入汉语拼音音调
+
+完整的支持四声调的拼音首先需要添加并选择输入源「ABC（扩展）」。输入时先输入声调，然后输入元音字母（先声调再元音），例如：option + `，再按 o，可得到 ò。
+
+1、2、3、4 声调分别对应的组合按键是： option + a、e、v、`。
+
+元音: a、o、u、i、u、ü。
+
+ü: option+u+u
+
+* option + a，再按 a，可得到 ā。
+* option + e，再按 a，可得到 á。
+* option + v，再按 a，可得到 ǎ。
+* option + `，再按 a，可得到 à。
+
+![shengdiao](images/shengdiao.png)
