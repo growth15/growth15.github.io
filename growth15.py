@@ -32,7 +32,6 @@ tag:
     os.system("git add -A")
     os.system(commit)
     os.system("git push")
-    print("post done!")
 
 @itchat.msg_register(itchat.content.TEXT)
 def text_reply(msg):
@@ -41,6 +40,7 @@ def text_reply(msg):
 
     if (nickname == '贾献华' or nickname == '安琴'):
         post(text)
+        return '发送成功!'
 
 if __name__ == '__main__':
     itchat.auto_login(enableCmdQR=2)
