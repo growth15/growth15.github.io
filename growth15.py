@@ -36,6 +36,7 @@ tag:
 @itchat.msg_register(itchat.content.TEXT)
 def text_reply(msg):
     text = msg.text
+    print(text)
     nickname = msg.user.NickName
 
     if (nickname == '贾献华' or nickname == '安琴'):
